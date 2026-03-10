@@ -1,0 +1,5 @@
+-keep class com.shielddns.app.** { *; }
+-keep class com.shielddns.app.DnsVpnService { *; }
+-keep class com.shielddns.app.BootReceiver { *; }
+-keep class com.shielddns.app.ShieldDeviceAdmin { *; }
+-dontwarn kotlin.**
